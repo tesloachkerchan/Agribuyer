@@ -1,0 +1,31 @@
+.App {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+.image_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.image_wrapper img {
+  width: 200px; /* Ensure all images have the same width */
+  height: 200px; /* Ensure all images have the same height */
+  border-radius: 50%; /* Make all images circular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better aesthetics */
+  transition: transform 0.3s ease; /* Smooth transition for scaling effect */
+}
+
+.image_wrapper img:hover {
+  transform: scale(1.1); /* Slightly enlarge image on hover for a nice effect */
+}

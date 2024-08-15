@@ -1,0 +1,24 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .container {
+    margin-top: 100px;
+  }
+  .form-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  .form-container:hover {
+    transform: scale(1.05);
+  }
+  .login-img {
+    max-width: 350px;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  
+  

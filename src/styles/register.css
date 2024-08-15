@@ -1,0 +1,145 @@
+.register {
+  margin-top: 100px;
+  width: 50vw;
+  height: 100vh;
+  margin-left: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerWrapper {
+  width: 70%;
+  height: 69%;
+  display: flex;
+  justify-content: center;
+}
+
+.registerForm {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.registerBox {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.registerLabel {
+  font-size: 14px;
+  font-weight: 600;
+  color: #00695c;
+}
+
+.registerInput {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.registerInput:focus {
+  outline: none;
+  border-color: #00695c;
+}
+
+.registerButton {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #00695c;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.registerButton:focus {
+  outline: none;
+}
+
+.loginRedirectButton {
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #004d40;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginRedirectButton:focus {
+  outline: none;
+}
+@media (max-width: 768px) {
+  .register {
+    margin-top: 100px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .registerWrapper {
+    width: 90%;
+    height: auto;
+  }
+
+  .registerForm {
+    padding: 10px;
+  }
+
+  .registerBox {
+    padding: 15px;
+  }
+
+  .registerInput {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .registerButton, .loginRedirectButton {
+    height: 35px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .register {
+    margin-top: 50px;
+    width: 95vw;
+  }
+
+  .registerWrapper {
+    width: 100%;
+  }
+
+  .registerForm {
+    padding: 5px;
+  }
+
+  .registerBox {
+    padding: 10px;
+  }
+
+  .registerInput {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .registerButton, .loginRedirectButton {
+    height: 30px;
+    font-size: 14px;
+  }
+}
